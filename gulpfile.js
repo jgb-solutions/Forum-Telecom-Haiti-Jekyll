@@ -1,34 +1,23 @@
 var elixir = require('laravel-elixir');
 
-/*
- |--------------------------------------------------------------------------
- | Elixir Asset Management
- |--------------------------------------------------------------------------
- |
- | Elixir provides a clean, fluent API for defining some basic Gulp tasks
- | for your Laravel application. By default, we are compiling the Sass
- | file for our application, as well as publishing vendor resources.
- |
- */
+elixir.config.assetsPath = 'assets/source';
+elixir.config.publicPath = 'assets';
 
 elixir(function(mix) {
-    mix
-        .copy('vendor/bower/angular/angular.js', 'resources/assets/js/angular.js')
-        .copy('vendor/bower/jquery/dist/jquery.min.js', 'resources/assets/js/jquery.js')
+	mix
+		.less('app.less')
 
-        .less(['bootstrap.less', 'app.less'])
+		.scripts('site.js')
 
-        .scripts([
-            'jquery.js',
-            'angular.js',
-            'bootstrap.js',
-            'jquery.easing.js',
-            'jquery.countdown.min.js',
-            'flipclock.min.js',
-            'site.js',
-            'form.js',
-            'users.js'
-        ])
+		.combine([
+			'assets/source/css/vendor/flipclock.min.css'
+		], 'assets/css/vendor.css')
 
-        .version(['css/app.css', 'js/all.js'])
+		.combine([
+			'node_modules/jquery/dist/jquery.min.js',
+			'node_modules/bootstrap/dist/js/bootstrap.min.js',
+			'node_modules/jquery.easing/jquery.easing.min.js',
+			'node_modules/jquery.countdown/jquery.countdown.js',
+			'assets/source/js/vendor/flipclock.min.js',
+		], 'assets/js/vendor.js');
 });
