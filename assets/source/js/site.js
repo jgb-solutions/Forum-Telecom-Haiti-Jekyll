@@ -31,15 +31,18 @@ $('.navbar-collapse ul li a').click(function() {
 
 
 /* Countdown */
-$(function()
-{
+$(function() {
 	FlipClock.Lang.Custom = { days:'Jours', hours:'Heures', minutes:'Minutes', seconds:'Secondes' };
 	var opts = {
 		clockFace: 'DailyCounter',
 		countdown: true,
 		language: 'Custom'
 	};
-	var countdown = 1495033320 - ((new Date().getTime())/1000); // from: 05/17/2016 09:00 am -0600
-	countdown = Math.max(1, countdown);
-	$('.clock-builder-output').FlipClock(countdown, opts);
+	var countdown2017 = 1495033320 - ((new Date().getTime())/1000); // from: 05/17/2016 09:00 am -0600
+	countdown2017 = Math.max(1, countdown2017);
+	$('.clock-builder-output-2017').FlipClock(countdown2017, opts);
+
+	var countdown2016 = 1463497200 - ((new Date().getTime())/1000); // from: 05/17/2016 09:00 am -0600
+	countdown2016 = Math.max(1, countdown2016);
+	$('.clock-builder-output-2016').FlipClock(countdown2016, opts);
 });
