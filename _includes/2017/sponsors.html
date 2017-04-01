@@ -21,89 +21,17 @@
 			</div> -->
 
 			<div class="col-sm-12">
-				<!-- <hr> -->
-				<h2>Sponsors</h2>
+				<h2  class="title">Sponsors</h2>
 
 				<div class="row">
-					<!-- <div class="col-sm-2 col-xs-6 text-center">
-						<img src="/assets/images/conatel-logo-500x500.png"
-							class="img-responsive img-rounded sponsors"
-							alt="CONATEL"
-							title="CONATEL">
-					</div> -->
-<!-- 					<div class="col-sm-2 col-xs-6 text-center">
-						<img src="/assets/images/juno7.jpg"
-							class="img-responsive img-rounded sponsors"
-							alt="Juno7"
-							title="Juno7">
-					</div> -->
-					<div class="col-sm-2 col-xs-6 text-center">
-						<img src="/assets/images/mds.jpg"
-							class="img-responsive img-rounded sponsors"
-							alt="MDS"
-							title="MDS">
-					</div>
-
-					<div class="col-sm-2 col-xs-6 text-center">
-						<img src="/assets/images/ti-kwen-pam.jpg"
-							class="img-responsive img-rounded sponsors"
-							alt="Ti Kwen Pam http://tikwenpam.net"
-							title="Ti Kwen Pam - Rezo Sosyal Mizik Ayisyen">
-					</div>
-					<!-- <div class="col-sm-2 col-xs-6 text-center">
-						<img src="/assets/images/eliacin-500x500.jpg"
-							class="img-responsive img-rounded sponsors"
-							 alt="Eliacin"
-							title="Eliacin">
-					</div> -->
-					<div class="col-sm-2 col-xs-6 text-center">
-						<img src="/assets/images/new-vision-500x500.jpg"
-							class="img-responsive img-rounded sponsors"
-							 alt="New Vision"
-							title="New Vision">
-					</div>
-					<!-- <div class="col-sm-2 col-xs-6 text-center">
-						<img src="/assets/images/iret.jpg"
-							class="img-responsive img-rounded sponsors"
-							 alt="IRET"
-							title="IRET">
-					</div> -->
-					<!-- <div class="col-sm-2 col-xs-6 text-center">
-						<img src="/assets/images/jethro.png"
-							class="img-responsive img-rounded sponsors"
-							 alt="Jethro - The Moment Photography"
-							title="Jethro - The Moment Photography">
-					</div> -->
-				<!-- 	<div class="col-sm-2 col-xs-6 text-center">
-						<img src="/assets/images/fd.jpg"
-							class="img-responsive img-rounded sponsors"
-							 alt="FD Strategy"
-							title="FD Strategy">
-					</div> -->
-					<div class="col-sm-2 col-xs-6 text-center">
-						<img src="/assets/images/kingos.jpg"
-							class="img-responsive img-rounded sponsors"
-							 alt="Kingo's"
-							title="Kingo's">
-					</div>
-					<div class="col-sm-2 col-xs-6 text-center">
-						<img src="/assets/images/royal.jpg"
-							class="img-responsive img-rounded sponsors"
-							 alt="Royal Oasis"
-							title="Royal Oasis">
-					</div>
-					<div class="col-sm-2 col-xs-6 text-center">
-						<img src="/assets/images/graphic.jpg"
-							class="img-responsive img-rounded sponsors"
-							 alt="Graphic Plus"
-							title="Graphic Plus">
-					</div>
-					<div class="col-sm-2 col-xs-6 text-center">
-						<img src="/assets/images/1click.jpg"
-							class="img-responsive img-rounded sponsors"
-							 alt="1 Click"
-							title="1 Click">
-					</div>
+					{% for sponsor in site.data.2017.sponsors %}
+						<div class="col-sm-2 col-xs-6 text-center">
+							<img src="/assets/images/{{ sponsor.image }}"
+								class="img-responsive img-rounded sponsors"
+								alt="{{ sponsor.name }}"
+								title="{{ sponsor.name }}">
+						</div>
+					{% endfor %}
 				</div>
 			</div>
 		</div>

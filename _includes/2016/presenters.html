@@ -1,0 +1,47 @@
+<section id="panelistes" class="content-section text-center noselect bg-red">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12">
+				<h2 class="title">Panélistes</h2>
+				<div class="row">
+					{% for presenter in site.data.2016.presenters %}
+						<div class="col-sm-2 col-xs-6">
+							<a data-toggle="modal" href='#{{ presenter.id}}-modal'>
+								<img
+									src="/assets/images/{{ presenter.image }}"
+									alt="{{ presenter.name }}"
+									class="img-responsive img-rounded team">
+								<div class="caption">
+									<h4>{{ presenter.name }}<br>
+										<small>{{ presenter.role }}</small>
+									</h4>
+								</div>
+							</a>
+
+							<div class="modal fade" id="{{ presenter.id}}-modal">
+								<div class="modal-dialog">
+									<div class="modal-content">
+										<div class="modal-header" hidden="true">
+											<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+											<h4 class="modal-title text-center">
+												{{ presenter.name}} <br>
+												<small>{{ presenter.role }}</small>
+											</h4>
+										</div>
+										<div class="modal-body" style="padding: 0">
+											<img
+												src="/assets/images/{{ presenter.splash}}"
+												alt="stephane Vincent"
+												class="img-responsive">
+										</div>
+										<div class="modal-footer"  hidden="true"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					{% endfor %}
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
