@@ -1,6 +1,7 @@
 @import "node_modules/bootstrap/less/bootstrap.less";
 @import "./variables.less";
 @import "./mixins.less";
+@import "./countdown.less";
 
 body {
 	width: 100%;
@@ -356,8 +357,12 @@ a.navbar-brand {
 	}
 }
 
-img.team {
-	border: 3px solid @teamImageBorderColor;
+.border-white {
+	border: 3px solid white;
+}
+
+.border-primary {
+	border: 3px solid @brand-primary;
 }
 
 img.sponsors, img.team {
@@ -399,23 +404,20 @@ img.sponsors, img.team {
 	height: 385px;
 }
 
-/* Count Down */
-
-body .flip-clock-wrapper ul li a div div.inn,
-body .flip-clock-small-wrapper ul li a div div.inn {
-	color: #CCCCCC; background-color: #333333;
-}
-
-body .flip-clock-dot,
-body .flip-clock-small-wrapper .flip-clock-dot {
-	background: #323434;
-}
-
-body .flip-clock-wrapper .flip-clock-meridium a,
-body .flip-clock-small-wrapper .flip-clock-meridium a {
-	color: #323434;
-}
-
 #panelistes h4 small {
 	color: white;
+}
+
+#countdown {
+	background-color: #a00100;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background: -webkit-gradient(radial, center center, 0, center center, 460, from(@brand-danger), to(#a00100)); /* Safari 4-5, Chrome 1-9 */ /* Can't specify a percentage size? Laaaaaame. */
+	background: -webkit-radial-gradient(circle, @brand-danger, #a00100); /* Safari 5.1+, Chrome 10+ */
+	background: -moz-radial-gradient(circle, @brand-danger, #a00100); /* Firefox 3.6+ */
+	background: -ms-radial-gradient(circle, @brand-danger, #a00100); /* IE 10 */
+	box-shadow: 0 3px 7px rgba(0, 0, 0, 0.2) inset, 0 -3px 7px rgba(0, 0, 0, 0.2) inset;
+	padding: 40px 0;
+	position: relative;
+	text-shadow: 0 1px 3px rgba(255, 255, 255, 0.4), 0 0 30px rgba(255, 255, 255, 0.075);
 }

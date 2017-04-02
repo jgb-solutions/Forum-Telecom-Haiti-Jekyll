@@ -8,46 +8,13 @@
 
 					{% capture modulo %}{{ forloop.index | mod:6 }}{% endcapture %}
 
-					{% if modulo == '0' or forloop.first %}
+					{% if modulo == '0' %}
 					 	</div><div class="row">
 					{% endif %}
 
-					<div class="col-sm-2 col-xs-6">
-						<a data-toggle="modal" href='#{{ presenter.id}}-modal'>
-							<img
-								src="/assets/images/{{ presenter.image }}"
-								alt="{{ presenter.name }}"
-								class="img-responsive img-rounded team">
-							<div class="caption">
-								<h4>{{ presenter.name }}<br>
-									<small>{{ presenter.role }}</small>
-								</h4>
-							</div>
-						</a>
+					{% include partials/presenter.html %}
 
-						<div class="modal fade" id="{{ presenter.id}}-modal">
-							<div class="modal-dialog">
-								<div class="modal-content">
-									<div class="modal-header" hidden="true">
-										<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-										<h4 class="modal-title text-center">
-											{{ presenter.name}} <br>
-											<small>{{ presenter.role }}</small>
-										</h4>
-									</div>
-									<div class="modal-body" style="padding: 0">
-										<img
-											src="/assets/images/{{ presenter.splash}}"
-											alt="stephane Vincent"
-											class="img-responsive">
-									</div>
-									<div class="modal-footer"  hidden="true"></div>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					{% if modulo == '6' or forloop.last %}
+					{% if modulo == '6' %}
 					 	</div><div class="row">
 					{% endif %}
 					{% endfor %}

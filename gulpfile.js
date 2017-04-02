@@ -10,14 +10,9 @@ elixir(function(mix) {
 		.scripts('site.js')
 
 		.combine([
-			'assets/source/css/vendor/flipclock.min.css'
-		], 'assets/css/vendor.css')
-
-		.combine([
 			'node_modules/jquery/dist/jquery.min.js',
 			'node_modules/bootstrap/dist/js/bootstrap.min.js',
 			'node_modules/jquery.easing/jquery.easing.min.js',
 			'node_modules/jquery.countdown/jquery.countdown.js',
-			'assets/source/js/vendor/flipclock.min.js',
 		], 'assets/js/vendor.js');
 });

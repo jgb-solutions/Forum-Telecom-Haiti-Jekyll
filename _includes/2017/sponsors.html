@@ -1,36 +1,12 @@
 <section id="sponsors" class="content-section text-center noselect bg-blue">
 	<div class="container">
 		<div class="row">
-
-			<!--  <div class="col-sm-12">
-				<h2>Sponsors Niveau 1</h2>
-				<div class="row">
-					<div class="col-sm-3 col-xs-6 text-center">
-						<img src="/assets/images/conatel-logo-500x500.png"
-							class="img-responsive img-rounded sponsors"
-							alt="CONATEL"
-							title="CONATEL">
-					</div>
-					<div class="col-sm-3 col-xs-6 text-center">
-						<img src="/assets/images/logo-natcom.jpg"
-							class="img-responsive img-rounded sponsors"
-							alt="Natcom"
-							title="Natcom">
-					</div>
-				</div>
-			</div> -->
-
 			<div class="col-sm-12">
 				<h2  class="title">Sponsors</h2>
 
 				<div class="row">
 					{% for sponsor in site.data.2017.sponsors %}
-						<div class="col-sm-2 col-xs-6 text-center">
-							<img src="/assets/images/{{ sponsor.image }}"
-								class="img-responsive img-rounded sponsors"
-								alt="{{ sponsor.name }}"
-								title="{{ sponsor.name }}">
-						</div>
+						{% include partials/sponsor.html %}
 					{% endfor %}
 				</div>
 			</div>

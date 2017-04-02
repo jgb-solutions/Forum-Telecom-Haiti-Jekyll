@@ -6,12 +6,7 @@
 
 				<div class="row">
 					{% for sponsor in site.data.2016.sponsors %}
-						<div class="col-sm-2 col-xs-6 text-center">
-							<img src="/assets/images/{{ sponsor.image }}"
-								class="img-responsive img-rounded sponsors"
-								alt="{{ sponsor.name }}"
-								title="{{ sponsor.name }}">
-						</div>
+						{% include partials/sponsor.html %}
 					{% endfor %}
 				</div>
 			</div>
