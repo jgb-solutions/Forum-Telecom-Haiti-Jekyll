@@ -30,11 +30,8 @@ $('.navbar-collapse ul li a').click(function() {
 });
 
 $(function() {
-	// $('time').countDown({
-	// 	with_separators: false
-	// });
-
-	$('.alt-1').countDown({
-		css_class: 'countdown-alt-1'
+	$('#counter').countdownCube({
+		target: new Date( 'May 17, 2017 10:00:00' ),
+		cubeSize: 100
 	});
 });

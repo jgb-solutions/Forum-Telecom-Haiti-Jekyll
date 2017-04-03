@@ -10,9 +10,13 @@ elixir(function(mix) {
 		.scripts('site.js')
 
 		.combine([
+			'node_modules/countdownCube-master/countdowncube.min.css',
+		], 'assets/css/vendor.css')
+
+		.combine([
 			'node_modules/jquery/dist/jquery.min.js',
 			'node_modules/bootstrap/dist/js/bootstrap.min.js',
 			'node_modules/jquery.easing/jquery.easing.min.js',
-			'node_modules/jquery.countdown/jquery.countdown.js',
+			'node_modules/countdownCube-master/countdowncube.js'
 		], 'assets/js/vendor.js');
 });
