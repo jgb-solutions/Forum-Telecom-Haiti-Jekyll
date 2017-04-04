@@ -34,4 +34,12 @@ $(function() {
 		target: new Date( 'May 17, 2017 10:00:00' ),
 		cubeSize: 100
 	});
+
+	texts = $('.countdownCubeTitleDiv');
+	texts.eq(0).parent().hide();
+	texts.eq(1).text('Mois');
+	texts.eq(2).text('Jours');
+	texts.eq(3).text('Heures');
+	texts.eq(4).text('Min.');
+	texts.eq(5).text('Sec.');
 });

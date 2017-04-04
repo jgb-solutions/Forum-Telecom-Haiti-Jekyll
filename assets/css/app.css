@@ -6991,8 +6991,10 @@ img.team {
   position: relative;
   text-shadow: 0 1px 3px rgba(255, 255, 255, 0.4), 0 0 30px rgba(255, 255, 255, 0.075);
 }
-.countdownCubeTitleDiv {
-  display: none;
+@media screen and (max-width: 554px) {
+  #counter {
+    margin-bottom: 7em;
+  }
 }
 
 /*# sourceMappingURL=app.css.map */
