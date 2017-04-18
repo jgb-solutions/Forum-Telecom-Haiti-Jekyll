@@ -19,7 +19,7 @@ description: > # this means to ignore newlines until "baseurl:"
   La rencontre des acteurs de télécommunications
   en Haiti le 17 mai à l'hôtel Royal Oasis.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.forumtelecomhaiti.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: forumtelecomhaiti
 github_username:  "jgbneatdesign"
 
