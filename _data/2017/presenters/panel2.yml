@@ -17,19 +17,19 @@
       role:  Chef Cabinet du President de l’Assemblée Nationale d’Haiti.
 
 -     id: 4
-      name: Michelle V. BOISROND
-      splash: Boisrond.jpg
-      image: Boisrond.jpg
-      role: Data Center Plant Engineering Supervisor
-
--     id: 5
-      name: Nom du panéliste
+      name: Michael VERCH
       splash: question-mark-head.gif
       image: question-mark-head.gif
-      role: Président gouvernement Jeunesse Haïti
+      role: Président de AHTIC  (Association Haitienne pour le Développement des Technologies de l’Information et de la Communication)
 
--     id: 6
-      name: Anne Sophie BERNARD
-      splash: question-mark-head.gif
-      image: question-mark-head.gif
-      role: Social Media Manager, Group REBO
+# -     id: 5
+#       name: Nom du panéliste
+#       splash: question-mark-head.gif
+#       image: question-mark-head.gif
+#       role: Président gouvernement Jeunesse Haïti
+
+# -     id: 6
+#       name: Anne Sophie BERNARD
+#       splash: question-mark-head.gif
+#       image: question-mark-head.gif
+#       role: Social Media Manager, Group REBO
