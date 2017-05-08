@@ -33,17 +33,6 @@
       linkedin: https://www.linkedin.com/in/jean-gérard-bousiquot-85a83689
       website: https://jgbneatdesign.com
 
--     name: Marie Junie Jules
-      id: marie
-      image: junie-500x500-2.jpg
-      role: Responsable Financier
-      bio:  Née à Port-au-Prince, Jules Marie Junie, étudiante en Administration
-            sociale et économique et Marketing. PDG de Madjwel création,
-            Responsable financier a Geste Haïti , responsable Marketing a Bedjimine,
-            avec un parcour comme agent communautaire chez March citymed.
-      twitter: https://twitter.com/mjunie87
-      linkedin: https://www.linkedin.com/in/marie-junie-jules-30570011b
-      website:
 
 -     name: Joseph Jean Ronald Eliacin
       id: ronald
@@ -68,4 +57,16 @@
       bio:
       twitter: https://twitter.com/jethrohaiti
       linkedin:
+      website:
+
+-     name: Marie Junie Jules
+      id: marie
+      image: junie-500x500-2.jpg
+      role: Responsable Financier
+      bio:  Née à Port-au-Prince, Jules Marie Junie, étudiante en Administration
+            sociale et économique et Marketing. PDG de Madjwel création,
+            Responsable financier a Geste Haïti , responsable Marketing a Bedjimine,
+            avec un parcour comme agent communautaire chez March citymed.
+      twitter: https://twitter.com/mjunie87
+      linkedin: https://www.linkedin.com/in/marie-junie-jules-30570011b
       website:
