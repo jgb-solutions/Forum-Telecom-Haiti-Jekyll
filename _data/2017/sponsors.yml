@@ -34,5 +34,16 @@
 -   name: Graphic Plus
     image: graphic.jpg
 
+-   name: Creation Studio
+    image: creation-studio.jpg
+
+-   name: Papito'z
+    image: papitoz.jpg
+
+# -   name: Graphic Plus
+#     image: graphic.jpg
+# -   name: Graphic Plus
+#     image: graphic.jpg
+
 # -   name: 1 Click
 #     image: 1click.jpg
