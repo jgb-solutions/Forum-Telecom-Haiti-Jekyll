@@ -1,0 +1,35 @@
+-     id: 1
+      name: Franciyou Germain
+      splash: franciyou.jpg
+      image: franciyou.jpg
+      role: Vice-Président de l’Association Haïtienne des Médias en Ligne  (AHML)
+
+-     id: 2
+      name: Jimmy BORGELLA
+      splash: jimmy.jpg
+      image: jimmy.jpg
+      role: Président Fondateur de Vie Jeunes Internationale et promoteur de la Bibliothèque Numérique
+
+-     id: 3
+      name: Samuel Polidor Accius
+      splash: samuel.jpg
+      image: samuel.jpg
+      role: Président de World Merit Haiti
+
+-     id: 4
+      name: Michelle V. BOISROND
+      splash: Boisrond.jpg
+      image: Boisrond.jpg
+      role: Data Center Plant Engineering Supervisor
+
+-     id: 5
+      name: Nom du panéliste
+      splash: question-mark-head.gif
+      image: question-mark-head.gif
+      role: Président gouvernement Jeunesse Haïti
+
+-     id: 6
+      name: Anne Sophie BERNARD
+      splash: question-mark-head.gif
+      image: question-mark-head.gif
+      role: Social Media Manager, Group REBO

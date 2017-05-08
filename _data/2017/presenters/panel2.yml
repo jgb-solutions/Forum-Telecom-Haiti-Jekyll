@@ -1,0 +1,35 @@
+-     id: 21
+      name: Gary BODEAU
+      splash: bodeau.jpg
+      image: bodeau.jpg
+      role: Député 58e législature Haïti
+
+-     id: 22
+      name: Stephane VINCENT
+      splash: stephane.jpg
+      image: stephane.jpg
+      role: Specialiste E-Gouvernance
+
+-     id: 23
+      name: Pascal ADRIEN
+      splash: pascal.jpg
+      image: pascal.jpg
+      role:  Chef Cabinet du President de l’Assemblée Nationale d’Haiti.
+
+-     id: 4
+      name: Michelle V. BOISROND
+      splash: Boisrond.jpg
+      image: Boisrond.jpg
+      role: Data Center Plant Engineering Supervisor
+
+-     id: 5
+      name: Nom du panéliste
+      splash: question-mark-head.gif
+      image: question-mark-head.gif
+      role: Président gouvernement Jeunesse Haïti
+
+-     id: 6
+      name: Anne Sophie BERNARD
+      splash: question-mark-head.gif
+      image: question-mark-head.gif
+      role: Social Media Manager, Group REBO
