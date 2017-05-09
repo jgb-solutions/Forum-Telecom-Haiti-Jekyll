@@ -42,8 +42,9 @@
 
 -   name: Association Haïtienne des Médias en Ligne  (AHML)
     image: ahml.jpg
-# -   name: Graphic Plus
-#     image: graphic.jpg
+
+-   name: Foodiger
+    image: foodigger.jpg
 
 # -   name: 1 Click
 #     image: 1click.jpg
