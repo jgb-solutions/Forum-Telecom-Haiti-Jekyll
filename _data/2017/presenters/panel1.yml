@@ -22,14 +22,14 @@
       image: Boisrond.jpg
       role: Data Center Plant Engineering Supervisor
 
--     id: 15
-      name: Nom du panéliste
-      splash: question-mark-head.gif
-      image: question-mark-head.gif
-      role: Président gouvernement Jeunesse Haïti
+# -     id: 15
+#       name: Nom du panéliste
+#       splash: question-mark-head.gif
+#       image: question-mark-head.gif
+#       role: Président gouvernement Jeunesse Haïti
 
--     id: 16
-      name: Anne Sophie BERNARD
-      splash: question-mark-head.gif
-      image: question-mark-head.gif
-      role: Social Media Manager, Group REBO
+# -     id: 16
+#       name: Anne Sophie BERNARD
+#       splash: question-mark-head.gif
+#       image: question-mark-head.gif
+#       role: Social Media Manager, Group REBO

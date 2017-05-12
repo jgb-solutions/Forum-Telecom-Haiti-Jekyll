@@ -1,6 +1,9 @@
 # -   name: CONATEL
 #     image: conatel-logo-500x500.png
 
+-   name: GROUPE REBO
+    image: rebo.jpg
+
 -   name: Juno7
     image: juno7.jpg
 
@@ -42,9 +45,6 @@
 
 -   name: Association Haïtienne des Médias en Ligne  (AHML)
     image: ahml.jpg
-
--   name: Foodiger
-    image: foodigger.jpg
 
 # -   name: 1 Click
 #     image: 1click.jpg
