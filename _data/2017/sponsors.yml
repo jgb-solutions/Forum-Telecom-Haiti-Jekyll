@@ -13,12 +13,12 @@
 -   name: MDS
     image: mds.jpg
 
--   name: Ti Kwen Pam
-    image: ti-kwen-pam.jpg
 
 -   name: Eliacin
     image: eliacin-500x500.jpg
 
+-   name: Ti Kwen Pam
+    image: ti-kwen-pam.jpg
 
 # -   name: IRET
 #     image: iret.jpg
