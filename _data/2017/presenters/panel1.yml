@@ -22,14 +22,20 @@
       image: Boisrond.jpg
       role: Data Center Plant Engineering Supervisor
 
-# -     id: 15
-#       name: Nom du panéliste
-#       splash: question-mark-head.gif
-#       image: question-mark-head.gif
-#       role: Président gouvernement Jeunesse Haïti
+-     id: 15
+      name: Fito Damour
+      splash: fito-square.jpg
+      image: fito-square.jpg
+      role: PDG FD Strategy
 
-# -     id: 16
-#       name: Anne Sophie BERNARD
-#       splash: question-mark-head.gif
-#       image: question-mark-head.gif
-#       role: Social Media Manager, Group REBO
+-     id: 16
+      name: Ricardo Vintris
+      splash: ricardo.jpg
+      image: ricardo.jpg
+      role: Social Media Manager et blogueur
+
+-     id: 17
+      name: Patrick Eugene
+      splash: eugene.jpg
+      image: eugene.jpg
+      role: Social Media Manager et Blogueur
