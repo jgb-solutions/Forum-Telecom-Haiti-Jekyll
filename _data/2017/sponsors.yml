@@ -4,6 +4,9 @@
 -   name: GROUPE REBO
     image: rebo.jpg
 
+-   name: Association Haitienne de Multimedia et Design
+    image: ahmud.jpg
+
 -   name: Juno7
     image: juno7.jpg
 
@@ -16,8 +19,6 @@
 -   name: Eliacin
     image: eliacin-500x500.jpg
 
--   name: New Vision
-    image: new-vision-500x500.jpg
 
 # -   name: IRET
 #     image: iret.jpg
@@ -51,3 +52,6 @@
 
 -   name: Choco Max Haiti
     image: choco-max-haiti.jpg
+
+-   name: New Vision
+    image: new-vision-500x500.jpg
