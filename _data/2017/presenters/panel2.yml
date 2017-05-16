@@ -17,9 +17,9 @@
       role:  Chef Cabinet du President de l’Assemblée Nationale d’Haiti.
 
 -     id: 24
-      name: Michael VERCH
-      splash: mic-square.jpg
-      image: mic-square.jpg
+      name: Patrick Vincent
+      splash: vincent.jpeg
+      image: vincent.jpeg
       role: Président de AHTIC  (Association Haitienne pour le Développement des Technologies de l’Information et de la Communication)
 
 -     id: 25
@@ -33,3 +33,9 @@
       splash: boisrond.jpeg
       image: boisrond.jpeg
       role: Spécialiste en Télécommunications, Senior Ing. Expert Analyste en traitement de données, membre du CMEP, prof. à FDS UEH
+
+-    id: 27
+     name: Zephir Roberson
+     splash: roberto.jpg
+     image: roberto.jpg
+     role: PDG de CREGOLOG ( Centre de Recherche,  d'Expertise,  et de Formation en Logistique)
