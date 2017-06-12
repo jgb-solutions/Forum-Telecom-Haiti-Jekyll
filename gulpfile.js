@@ -11,7 +11,7 @@ elixir(function(mix) {
 
 		.combine([
 			// 'node_modules/countdownCube-master/countdowncube.min.css',
-			'node_modules/tutorialzine/assets/countdown/jquery.countdown.css',
+			'node_modules/tutorialzine-countdown/assets/countdown/jquery.countdown.css',
 		], 'assets/css/vendor.css')
 
 		.combine([
@@ -19,6 +19,6 @@ elixir(function(mix) {
 			'node_modules/bootstrap/dist/js/bootstrap.min.js',
 			'node_modules/jquery.easing/jquery.easing.min.js',
 			// 'node_modules/countdownCube-master/countdowncube.js',
-			'node_modules/tutorialzine/assets/countdown/jquery.countdown.js'
+			'node_modules/tutorialzine-countdown/assets/countdown/jquery.countdown.js'
 		], 'assets/js/vendor.js');
 });

@@ -82,5 +82,5 @@ $(function(){
 	});
 
 	// Warn the cancellation of the event on the web page
-	$('#cancel-modal').modal('show');
+	// $('#cancel-modal').modal('show');
 });
