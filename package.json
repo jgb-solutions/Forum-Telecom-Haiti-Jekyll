@@ -5,6 +5,5 @@
     "jquery.countdown": "^1.2.8",
     "jquery.easing": "^1.4.1"
   },
-  "devDependencies": {
-  }
+  "devDependencies": {}
 }

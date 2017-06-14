@@ -47,7 +47,7 @@ $('.navbar-collapse ul li a').click(function() {
 $(function(){
 
 	var note = $('#note'),
-		ts = new Date(2017, 4, 17, 10, 0, 0),
+		ts = new Date(2017, 5, 24, 10, 0, 0),
 		newYear = true;
 
 		console.log((new Date()) > ts, ts);
