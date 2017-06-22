@@ -33,3 +33,9 @@
       splash: olsen.jpg
       image: olsen.jpg
       role: PDG Easy Net
+
+-     id: 37
+      name: Val Wolff
+      splash: val.jpg
+      image: val.jpg
+      role: Programmeur et Concepteur de l'application 'L'histoire d'Haïti'

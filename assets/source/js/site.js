@@ -24,9 +24,9 @@ $(function() {
 
 // Closes the Responsive Menu on Menu Item Click
 $('.navbar-collapse ul li a').click(function() {
-  	if ($(this).attr('class') != 'dropdown-toggle active' && $(this).attr('class') != 'dropdown-toggle') {
-		$('.navbar-toggle:visible').click();
-  	}
+	if ($(this).attr('class') != 'dropdown-toggle active' && $(this).attr('class') != 'dropdown-toggle') {
+	$('.navbar-toggle:visible').click();
+	}
 });
 
 // $(function() {
@@ -50,7 +50,7 @@ $(function(){
 		ts = new Date(2017, 5, 24, 10, 0, 0),
 		newYear = true;
 
-		console.log((new Date()) > ts, ts);
+	console.log((new Date()) > ts, ts);
 
 	// if((new Date()) > ts){
 	// 	// The new year is here! Count towards something else.
